@@ -23,6 +23,10 @@ def locaiton():
     app.logger.debug('location')
     x = request.args.get('lat')
     y = request.args.get('lon')
+    if not x:
+        return ('missing parameter lat',400)
+    if not y:
+        return ('missing paremeter lon',400)
     app.logger.debug("got lat: %s, lon: %s",x,y)
     coordX=float(x)
     coordY=float(y)
@@ -38,6 +42,9 @@ def locaiton():
 def departures():
     app.logger.debug('departures')
     stationId = request.args.get('id');
+    if not stationId:
+        return ('missing parameter stationid',400)
+    
     app.logger.debug('got id: %s',stationId);
     params = urllib.urlencode({'id' : stationId, 'format' : 'json'})
     url = baseurl+"/departureBoard?%s" % params

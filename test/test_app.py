@@ -20,6 +20,14 @@ class TestApp(unittest.TestCase):
         rv = self.app.get('/')
         assert b'<title>Flaskplan</title>' in rv.data
 
+    def test_missing_lat(self):
+        rv = self.app.get('/location?lon=10.197282399999999')
+        self.assertEqual(rv.status,'400 BAD REQUEST')
+
+    def test_missing_lon(self):
+        rv = self.app.get('/location?lat=56.17118730000001')
+        self.assertEqual(rv.status,'400 BAD REQUEST')
+
     def test_stops(self):
         rv = self.app.get('/location?lat=56.17118730000001&lon=10.197282399999999')
         app.logger.debug(rv.data)
@@ -33,6 +41,9 @@ class TestApp(unittest.TestCase):
             keys=set(location.keys())
             self.assertSetEqual(keys, set(['distance','id','lat','lng','name']))
 
+    def test_missing_id(self):
+        rv = self.app.get('departures')
+        self.assertEqual(rv.status,'400 BAD REQUEST')
 
     def test_departures(self):
         # this id is likely to change in the future...
