@@ -1,10 +1,10 @@
 # What's this?
 
-Web app showing stops and departures based on data from rejseplanen.dk
+Web app showing stops and departures based on data from rejseplanen.dk (http://labs.rejseplanen.dk/api)
 
 # How do I use it?
 
-* You can try it at `http://flaskplan.sloppy.zone/`
+* You can try it at http://flaskplan.sloppy.zone/
 
 * To start a local instance on port 5000 `make run`
 
