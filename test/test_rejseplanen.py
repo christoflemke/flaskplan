@@ -9,7 +9,8 @@ sys.path.insert(0, os.path.abspath('..'))
 from website.rejseplanen import convertStops,convertDepartures
 
 class TestRejseplanen(unittest.TestCase):
-
+    'test conversion of data given example data'
+    
     def testConvertStops(self):
         with open('data/stopsNearby.json','r') as f:
             j=json.load(f,'UTF-8')

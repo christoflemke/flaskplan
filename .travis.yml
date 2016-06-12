@@ -6,4 +6,5 @@ python:
 script:
   - cd test
   - python test_rejseplanen.py
+  - python test_app.py
 

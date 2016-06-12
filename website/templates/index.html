@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Geolocation</title>
+    <title>Flaskplan</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -26,7 +26,11 @@
     </script>
     
     <script async defer
+            {% if apikey %}
+            src="https://maps.googleapis.com/maps/api/js?key={{apikey}}&callback=initMap">
+            {% else %}
             src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+            {% endif %}
     </script>
   </body>
 </html>
