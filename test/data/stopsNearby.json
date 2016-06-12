@@ -1,0 +1,306 @@
+{
+"LocationList":{
+  "noNamespaceSchemaLocation":"http://xmlopen.rejseplanen.dk/xml/rest/hafasRestStopsNearby.xsd",
+  "StopLocation":[{
+    "name":"Halmstadgade v. Skøjtehallen (Aarhus)",
+    "x":"10188778",
+    "y":"56181871",
+    "id":"751419500",
+    "distance":"115"
+    },{
+    "name":"Halmstadgade v. Aarhus Tech",
+    "x":"10190585",
+    "y":"56184046",
+    "id":"751419600",
+    "distance":"266"
+    },{
+    "name":"Randersvej/Vejlby Ringvej v. Højvang (Aarhus)",
+    "x":"10197354",
+    "y":"56182509",
+    "id":"751201900",
+    "distance":"428"
+    },{
+    "name":"Nehrus Allé v. DR (Aarhus)",
+    "x":"10192833",
+    "y":"56186275",
+    "id":"751408900",
+    "distance":"532"
+    },{
+    "name":"Brendstrupvej/Møllevangs Allé (Aarhus)",
+    "x":"10186279",
+    "y":"56177133",
+    "id":"751428400",
+    "distance":"569"
+    },{
+    "name":"Olof Palmes Alle v. Journalisthøjskolen/DR (Aarhus",
+    "x":"10188689",
+    "y":"56186734",
+    "id":"751401200",
+    "distance":"577"
+    },{
+    "name":"Brendstrupvej/Laurvigsgade (Aarhus)",
+    "x":"10190558",
+    "y":"56176396",
+    "id":"751428300",
+    "distance":"585"
+    },{
+    "name":"Brendstrupvej/Thorhavnsgade (Aarhus)",
+    "x":"10184616",
+    "y":"56177412",
+    "id":"751482500",
+    "distance":"600"
+    },{
+    "name":"Randersvej/Nydamsvej (Aarhus)",
+    "x":"10194487",
+    "y":"56186671",
+    "id":"751404200",
+    "distance":"607"
+    },{
+    "name":"Hasle Ringvej/Brendstrupvej (Aarhus)",
+    "x":"10182612",
+    "y":"56177880",
+    "id":"751401900",
+    "distance":"649"
+    },{
+    "name":"Randersvej/Stockholmsgade (Aarhus)",
+    "x":"10200033",
+    "y":"56178491",
+    "id":"751431000",
+    "distance":"681"
+    },{
+    "name":"Nydamsvej (Aarhus)",
+    "x":"10195709",
+    "y":"56187156",
+    "id":"751403500",
+    "distance":"688"
+    },{
+    "name":"Brendstrupvej/Islandsgade (Aarhus)",
+    "x":"10194936",
+    "y":"56175650",
+    "id":"751428200",
+    "distance":"719"
+    },{
+    "name":"Nydamsvej/Vorregårds Allé  (Aarhus)",
+    "x":"10197552",
+    "y":"56187291",
+    "id":"751474700",
+    "distance":"760"
+    },{
+    "name":"Vejlby Ringvej/Vorregårds Allé (Aarhus)",
+    "x":"10203350",
+    "y":"56184028",
+    "id":"751403400",
+    "distance":"832"
+    },{
+    "name":"Brendstrupvej/Kløvermarksvej (Aarhus)",
+    "x":"10198622",
+    "y":"56175021",
+    "id":"751428100",
+    "distance":"889"
+    },{
+    "name":"Paludan-Müllers Vej/Hasle Ringvej (Aarhus)",
+    "x":"10179178",
+    "y":"56176630",
+    "id":"751401800",
+    "distance":"901"
+    },{
+    "name":"Paludan-Müllers Vej/Katrinebjergvej (Århus)",
+    "x":"10181174",
+    "y":"56175021",
+    "id":"751464300",
+    "distance":"941"
+    },{
+    "name":"Olof Palmes Alle v. Aarhus Social- og Sundhedsskol",
+    "x":"10183574",
+    "y":"56189709",
+    "id":"751409000",
+    "distance":"996"
+    },{
+    "name":"Sandkås Busvej v. Firmasport (Aarhus)",
+    "x":"10174225",
+    "y":"56180109",
+    "id":"751437400",
+    "distance":"1028"
+    },{
+    "name":"Skejby Busvej/Nyringen (Aarhus)",
+    "x":"10199853",
+    "y":"56189682",
+    "id":"751431100",
+    "distance":"1060"
+    },{
+    "name":"Paludan-Müllers Vej/Ekkodalen (Aarhus)",
+    "x":"10183421",
+    "y":"56172747",
+    "id":"751464200",
+    "distance":"1086"
+    },{
+    "name":"Risvang (Aarhus)",
+    "x":"10208330",
+    "y":"56183138",
+    "id":"751463700",
+    "distance":"1109"
+    },{
+    "name":"Olof Palmes Allé/Brendstrupgårdsvej (Aarhus)",
+    "x":"10180670",
+    "y":"56190087",
+    "id":"751436300",
+    "distance":"1121"
+    },{
+    "name":"Randersvej v. Stjernepladsen (Aarhus)",
+    "x":"10202927",
+    "y":"56174257",
+    "id":"751402900",
+    "distance":"1122"
+    },{
+    "name":"Jordbrovej (Aarhus)",
+    "x":"10199592",
+    "y":"56172738",
+    "id":"751420300",
+    "distance":"1137"
+    },{
+    "name":"Bethesdavej/Nordvestpassagen (Aarhus)",
+    "x":"10209139",
+    "y":"56180774",
+    "id":"751463800",
+    "distance":"1151"
+    },{
+    "name":"Skejby Busvej/Næringen v. Skelager Kirken (Aarhus)",
+    "x":"10198163",
+    "y":"56191498",
+    "id":"751432300",
+    "distance":"1190"
+    },{
+    "name":"Vejlby Ringvej/Bryggervej (Aarhus)",
+    "x":"10208735",
+    "y":"56185790",
+    "id":"751463600",
+    "distance":"1213"
+    },{
+    "name":"Brendstrupgårdsvej/Hedager (Aarhus)",
+    "x":"10182675",
+    "y":"56191921",
+    "id":"751438800",
+    "distance":"1243"
+    },{
+    "name":"Aarhus Universitetshospital. Skejby indg. 1-4",
+    "x":"10176526",
+    "y":"56189988",
+    "id":"751421400",
+    "distance":"1272"
+    },{
+    "name":"Randersvej/Skejbygårdsvej (Aarhus)",
+    "x":"10187160",
+    "y":"56193044",
+    "id":"751202400",
+    "distance":"1284"
+    },{
+    "name":"Sandkåsvej/Herredsvej (Aarhus)",
+    "x":"10169604",
+    "y":"56180648",
+    "id":"751403900",
+    "distance":"1304"
+    },{
+    "name":"Hasle Ringvej/Nykersvej (Aarhus)",
+    "x":"10172966",
+    "y":"56175246",
+    "id":"751419400",
+    "distance":"1304"
+    },{
+    "name":"Aarhus Universitet. Statsbiblioteket og Stakladen",
+    "x":"10200249",
+    "y":"56170994",
+    "id":"751406800",
+    "distance":"1327"
+    },{
+    "name":"Brendstrupgårdsvej/Skejby Busvej (Aarhus)",
+    "x":"10171537",
+    "y":"56187183",
+    "id":"751438700",
+    "distance":"1330"
+    },{
+    "name":"Bethesdavej/Abildgade (Aarhus)",
+    "x":"10210559",
+    "y":"56176540",
+    "id":"751463900",
+    "distance":"1360"
+    },{
+    "name":"Vestre Ringgade/Hangøvej (Aarhus)",
+    "x":"10195134",
+    "y":"56169618",
+    "id":"751465300",
+    "distance":"1368"
+    },{
+    "name":"Aarhus Universitet. Statsbiblioteket. Langelandsg.",
+    "x":"10198370",
+    "y":"56170104",
+    "id":"751428000",
+    "distance":"1372"
+    },{
+    "name":"Skejbyparken/TV2 Østjylland (Aarhus)",
+    "x":"10188958",
+    "y":"56194051",
+    "id":"751417900",
+    "distance":"1382"
+    },{
+    "name":"Nordre Ringgade/Randersvej (Århus)",
+    "x":"10204474",
+    "y":"56171668",
+    "id":"751600500",
+    "distance":"1404"
+    },{
+    "name":"Herredsvej/Trillegårdsvej (Aarhus)",
+    "x":"10168130",
+    "y":"56179776",
+    "id":"751437700",
+    "distance":"1407"
+    },{
+    "name":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "x":"10204653",
+    "y":"56171650",
+    "id":"751301000",
+    "distance":"1412"
+    },{
+    "name":"Skejby Busvej v. Skejby Centret (Aarhus)",
+    "x":"10196024",
+    "y":"56194168",
+    "id":"751431200",
+    "distance":"1431"
+    },{
+    "name":"Paludan-Müllers Vej/Finlandsgade v. Storcenter Nor",
+    "x":"10188976",
+    "y":"56168818",
+    "id":"751464400",
+    "distance":"1431"
+    },{
+    "name":"Vejlby Centervej/Nyringen v. Vejlby-Risskov Hallen",
+    "x":"10205112",
+    "y":"56192514",
+    "id":"751417200",
+    "distance":"1505"
+    },{
+    "name":"Skejbygårdsvej/Skejby Busvej v. Skejby Centret (Aa",
+    "x":"10195080",
+    "y":"56194986",
+    "id":"751417800",
+    "distance":"1508"
+    },{
+    "name":"Herredsvej/Snogebæksvej (Aarhus)",
+    "x":"10167114",
+    "y":"56177196",
+    "id":"751437800",
+    "distance":"1536"
+    },{
+    "name":"Vestre Ringgade/P. Müllers Vej v. Vanggaard Centre",
+    "x":"10190792",
+    "y":"56167641",
+    "id":"751404400",
+    "distance":"1559"
+    },{
+    "name":"Aarhus Universitet. Kemisk Institut",
+    "x":"10197938",
+    "y":"56168126",
+    "id":"751475400",
+    "distance":"1572"
+    }]
+  }
+}

@@ -1,0 +1,250 @@
+{
+"DepartureBoard":{
+  "noNamespaceSchemaLocation":"http://xmlopen.rejseplanen.dk/xml/rest/hafasRestDepartureBoard.xsd",
+  "Departure":[{
+    "name":"Bybus 1A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"21:56",
+    "date":"09.06.16",
+    "messages":"0",
+    "rtTime":"21:57",
+    "rtDate":"09.06.16",
+    "finalStop":"Holmkær/Vestermøllevej. Trige (Aarhus)",
+    "direction":"Trige via AUH Skejby",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=56616%2F46049%2F498662%2F230459%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 118",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"21:58",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Randers Busterminal",
+    "direction":"Randers Busterminal",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=768141%2F272913%2F972272%2F230091%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 1A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"21:59",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Kolt Østervej/Kolt Kirkevej (Aarhus)",
+    "direction":"Kolt",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=186150%2F89144%2F540092%2F208001%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 18",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:00",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Elev. Høvej (Aarhus)",
+    "direction":"Elev via Hedeskovvej",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=26619%2F27251%2F818296%2F400276%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 120",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:03",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Kolind",
+    "direction":"Kolind",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=962808%2F338122%2F873272%2F115701%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 13",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:03",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Vejlby Nord. Stenagervej/Jellebakken (Aarhus)",
+    "direction":"Vejlby Nord",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=909294%2F330002%2F659306%2F26558%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 117",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:04",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Aarhus Rutebilstation",
+    "direction":"Aarhus Rutebilstation",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=355416%2F135228%2F145036%2F45955%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 5A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:04",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Dalgas Avenue v. Tangkrogen (Aarhus)",
+    "direction":"Tangkrogen",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=357993%2F147588%2F651616%2F206487%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 122",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:05",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Aarhus Rutebilstation",
+    "direction":"Aarhus Rutebilstation",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=313050%2F121728%2F466586%2F128943%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 5A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:06",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Marienlund. Dronning Margrethes Vej  (Aarhus)",
+    "direction":"Marienlund",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=205080%2F96683%2F230580%2F46942%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 1A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:11",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Lystrup Øst. Majsmarken (Aarhus)",
+    "direction":"Lystrup via AUH Skejby",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=439002%2F173279%2F49114%2F121778%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 1A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:14",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Kolt Østervej/Kolt Kirkevej (Aarhus)",
+    "direction":"Kolt",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=250191%2F110411%2F415662%2F124439%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 100",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:19",
+    "date":"09.06.16",
+    "messages":"1",
+    "rtTime":"22:20",
+    "rtDate":"09.06.16",
+    "finalStop":"Odder Busterminal",
+    "direction":"Odder Busterminal",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=335916%2F135759%2F866002%2F321031%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 5A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:19",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Dalgas Avenue v. Tangkrogen (Aarhus)",
+    "direction":"Tangkrogen",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=17787%2F34186%2F526550%2F257357%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 14",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:20",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Grøfthøj. Bøgeskov Høvej/Skovlundgårdsvej (Aarhus)",
+    "direction":"Grøfthøj",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=976011%2F342949%2F549760%2F50459%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 18",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:21",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Moesgård Museum (Aarhus)",
+    "direction":"Moesgaard Museum",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=986247%2F346953%2F52962%2F302271%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 5A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:21",
+    "date":"09.06.16",
+    "messages":"1",
+    "finalStop":"Marienlund. Dronning Margrethes Vej  (Aarhus)",
+    "direction":"Marienlund",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=567936%2F217635%2F201530%2F88560%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bus 200",
+    "type":"BUS",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:23",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Skanderborg Busterminal (Møllegade)",
+    "direction":"Skanderborg Busterminal (Møllegade)",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=570591%2F217587%2F865552%2F242579%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 12",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:24",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Hjortshøj / Hjortshøjvangen (Aarhus)",
+    "direction":"Hjortshøj",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=646041%2F232431%2F401192%2F14752%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    },{
+    "name":"Bybus 1A",
+    "type":"TB",
+    "stop":"Aarhus Universitet. Randersvej/Nordre Ringgade",
+    "time":"22:26",
+    "date":"09.06.16",
+    "messages":"0",
+    "finalStop":"Holmkær/Vestermøllevej. Trige (Aarhus)",
+    "direction":"Trige via AUH Skejby",
+    "JourneyDetailRef":{
+      "ref":"http://xmlopen.rejseplanen.dk/bin/rest.exe/journeyDetail?ref=561018%2F214183%2F102036%2F135989%2F86%3Fdate%3D09.06.16%26format%3Djson%26"
+      }
+    }]
+  }
+}
