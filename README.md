@@ -1,6 +1,6 @@
 # What's this?
 
-Web app showing stops and departures based on data from rejseplanen.dk (http://labs.rejseplanen.dk/api)
+Web app showing stops and departures in your vicinity based on data from rejseplanen.dk (http://labs.rejseplanen.dk/api)
 
 # How do I use it?
 

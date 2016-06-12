@@ -1,8 +1,6 @@
-// Note: This example requires that you consent to location sharing when
-// prompted by your browser. If you see the error "The Geolocation service
-// failed.", it means you probably did not give permission for the browser to
-// locate you.
-
+/*
+ * This method is invoked as a callback when maps has finished loading
+ */
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: -34.397, lng: 150.644},
@@ -29,6 +27,10 @@ function initMap() {
     }
 }
 
+/*
+ * Request the stop closest to the given location
+ * and add markers to the map for each of them.
+ */
 function addMarkers(map, position) {
     var xhttp = new XMLHttpRequest();
     xhttp.open('GET', '/location?lat='+position.coords.latitude+'&lon='+position.coords.longitude,true);
@@ -53,6 +55,9 @@ function addMarkers(map, position) {
     xhttp.send();
 }
 
+/*
+ * Setup click handler for markes, request next departures, and update table.
+ */
 function markerInfo(marker,location) {
     var infowindow = new google.maps.InfoWindow({
         content: location.name
@@ -86,7 +91,9 @@ function markerInfo(marker,location) {
     
 }
 
-
+/*
+ * Show an error message if geolocation was not possible
+ */
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.setPosition(pos);
     infoWindow.setContent(browserHasGeolocation ?
