@@ -1,0 +1,29 @@
+{
+  "project": "flaskplan",
+  "services": [
+    {
+      "id": "flaskplan",
+      "apps": [
+        {
+          "env": {},
+          "domain": {
+            "uri": "flaskplan.sloppy.zone"
+          },
+          "mem": 256,
+          "image": "christoflemke/flaskplan",
+          "cmd": "/usr/sbin/apache2ctl -D FOREGROUND",
+          "instances": 1,
+          "id": "flaskplan",
+          "health_checks": [],
+          "volumes": [],
+          "port_mappings": [
+            {
+              "container_port": 80,
+              "protocol": "tcp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

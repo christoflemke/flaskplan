@@ -11,6 +11,4 @@ RUN pip install -r requirements.txt
 RUN a2enmod wsgi
 RUN a2ensite flaskplan
 RUN a2dissite 000-default
-RUN apt-get install -y curl less
-#ENTRYPOINT ["python"]
 CMD ["apachectl" "-D" "FOREGROUND"]
