@@ -13,7 +13,7 @@ Web app showing stops and departures in your vicinity based on data from rejsepl
 # Files
 
 * `Dockerfile`: wrap this app as a docker container using `mod-wsgi`
-* `travis.yml` : configuration for `https://travis-ci.org/`
+* `travis.yml` : configuration for https://travis-ci.org/christoflemke/flaskplan/
 * `website/__init__.py` : The app...
 * `website/static`: static resources
 * `website/static/underscore.js`: used in fronten code
