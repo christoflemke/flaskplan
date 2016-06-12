@@ -1,16 +1,22 @@
 from flask import Flask, render_template, request
 import urllib
+import os
 from flask import json
 from rejseplanen import RejseplanClient, convertStops, convertDepartures
 
 app = Flask(__name__)
 
 baseurl = "http://xmlopen.rejseplanen.dk/bin/rest.exe"
-rejseplanClient = RejseplanClient(baseurl);
-
+rejseplanClient = RejseplanClient(baseurl)
+apikey = os.environ.get('MAPS_KEY')
+    
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    app.logger.debug('index')
+    if apikey:
+        return render_template("index.html", apikey = apikey)
+    else:
+        return render_template("index.html")
 
 @app.route("/location")
 def locaiton():
@@ -23,7 +29,10 @@ def locaiton():
     response = rejseplanClient.stopsNearby(coordX,coordY);
     app.logger.debug(response)
     converted=convertStops(response);
-    return (json.dumps(converted),200, {'Content-Type' : 'application/json'})
+    app.logger.debug(converted)
+    return (json.dumps(converted),200, {
+        'Content-Type' : 'application/json'
+    })
 
 @app.route("/departures")
 def departures():
@@ -38,7 +47,10 @@ def departures():
     jsonRsp = json.loads(rawResponse);
     app.logger.debug(jsonRsp);
     converted = convertDepartures(jsonRsp);
-    return (json.dumps(converted), 200, {'Content-Type' : 'application/json'})
+    app.logger.debug(converted)
+    return (json.dumps(converted), 200, {
+        'Content-Type' : 'application/json'
+    })
 
 if __name__ == "__main__":
     app.run()
