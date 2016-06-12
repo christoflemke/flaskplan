@@ -5,12 +5,12 @@ init:
 run:
 	python run.py
 
-build-docker:
+docker-build:
 	docker build -t christoflemke/flaskplan .
 
-run-docker: build-docker
+docker-run: docker-build
 	docker run -d -p 8000:80 --name flaskplan christoflemke/flaskplan /usr/sbin/apache2ctl -D FOREGROUND
 
-stop-docker:
+docker-stop:
 	docker stop flaskplan
 	docker rm flaskplan

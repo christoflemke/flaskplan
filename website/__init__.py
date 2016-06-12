@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 baseurl = "http://xmlopen.rejseplanen.dk/bin/rest.exe"
 rejseplanClient = RejseplanClient(baseurl)
-apikey = os.environ.get('MAPS_KEY')
+apikey = 'AIzaSyCyOJLtB3rOMlCrdipSb5G4IWvS5Rwx6DM'
     
 @app.route("/")
 def hello():
