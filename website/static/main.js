@@ -31,7 +31,7 @@ function initMap() {
 
 function addMarkers(map, position) {
     var xhttp = new XMLHttpRequest();
-    xhttp.open('GET', '/location?x='+position.coords.latitude+'&y='+position.coords.longitude,true);
+    xhttp.open('GET', '/location?lat='+position.coords.latitude+'&lon='+position.coords.longitude,true);
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
             var response = JSON.parse(xhttp.responseText);

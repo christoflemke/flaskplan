@@ -21,9 +21,9 @@ def hello():
 @app.route("/location")
 def locaiton():
     app.logger.debug('location')
-    x = request.args.get('x')
-    y = request.args.get('y')
-    app.logger.debug("got x: %s, y: %s",x,y)
+    x = request.args.get('lat')
+    y = request.args.get('lon')
+    app.logger.debug("got lat: %s, lon: %s",x,y)
     coordX=float(x)
     coordY=float(y)
     response = rejseplanClient.stopsNearby(coordX,coordY);

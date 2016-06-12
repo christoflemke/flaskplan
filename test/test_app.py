@@ -21,7 +21,7 @@ class TestApp(unittest.TestCase):
         assert b'<title>Flaskplan</title>' in rv.data
 
     def test_stops(self):
-        rv = self.app.get('/location?x=56.17118730000001&y=10.197282399999999')
+        rv = self.app.get('/location?lat=56.17118730000001&lon=10.197282399999999')
         app.logger.debug(rv.data)
         jsn = json.loads(rv.data)
         self.assertIsInstance(jsn,list)

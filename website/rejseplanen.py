@@ -2,7 +2,7 @@ import urllib
 import json
 
 class RejseplanClient:
-    'Access to the rejseplanen.dk api'
+    'Access to the rejseplanen.dk api (http://labs.rejseplanen.dk/api)'
     
     def __init__(self, baseurl):
         self.baseurl = baseurl
